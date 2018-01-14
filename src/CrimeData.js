@@ -64,7 +64,7 @@ class CrimeData extends Component {
                  {hasCrime === true ?
                   this.renderCrime():
                    ''} 
-                <h3>Satitics are in real-time from nflarrest.com </h3>
+                <h3>Statistics are in real-time from nflarrest.com </h3>
                 </Fragment>
 
         )
