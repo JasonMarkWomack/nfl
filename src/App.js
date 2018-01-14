@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import CrimeData from './CrimeData'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">NFL Crime Data App</h1>
-        </header>
-        <p className="App-intro">
-          Crime List 
-        </p>
+       <CrimeData />
       </div>
     );
   }
